@@ -36,10 +36,10 @@ if(isset($_SESSION['username'])) {
 	<div class="bg"></div>
 </div>
 
-//<?php 
+<?php 
  
-//$localIP = getHostByName(getHostName()); 
+$localIP = getHostByName(getHostName()); 
   
-//echo $localIP; 
+echo $localIP; 
 
-//?> 
+?> 
