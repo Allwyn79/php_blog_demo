@@ -35,3 +35,11 @@ if(isset($_SESSION['username'])) {
 <div class="row">
 	<div class="bg"></div>
 </div>
+
+<?php 
+ 
+$localIP = getHostByName(getHostName()); 
+  
+echo $localIP; 
+
+?> 
