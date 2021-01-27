@@ -38,8 +38,8 @@ if(isset($_SESSION['username'])) {
 
 <?php 
  
-//$localIP = getHostByName(getHostName()); 
+$localIP = getHostByName(getHostName()); 
   
-//echo $localIP; 
+echo $localIP; 
 echo gethostname();
 ?> 
